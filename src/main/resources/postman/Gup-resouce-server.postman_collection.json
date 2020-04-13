@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "ab018a62-e2da-4601-9092-9bf4f25c8cd3",
+		"name": "Gup-resouce-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "public",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6030/gup/public",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6030",
+					"path": [
+						"gup",
+						"public"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "secure",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX25hbWUiOiJwbG9za2l5LmFuZHJpeUBnbWFpbC5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMDgyNWM0ZDMtZTIxMi00M2VlLWFlMTUtYzU4ZDI1ZWE4YjdhIiwiY2xpZW50X2lkIjoibWVlc3QtZXhwcmVzcyIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdfQ.Pz9tAMmlEyVtPVEMndlWoIhFZ-Rw4F6Prl60MOr3DjbATS8VDlxmUxhTdnF1yjLZCjhwisAv31riLibDGIi6NN2_YBEjreDBfcqa86gV_3SCK88ttFYnlRUVfuRiguRJqlVH8zWaMaiOkyo2qaP0BDxidMzbsFBVsOCTxcAPEvoKMizDZzTcndhdji9PENc54Ajw63heXb4LoF2mcMqWF2dxbxIUtL2mjfjljh-pztbBxMNVR6YDed9ZKK0qjwN4h7v89qBryq2Y0ayV8cJUdkcpZb0gKwWB1aeyQ45hD-dGcbZLSSauPlh5IE-RSy72Nu5fFMcnzOyAJ3z7vmm3_Q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:6030/gup/secure",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6030",
+					"path": [
+						"gup",
+						"secure"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

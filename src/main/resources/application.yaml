@@ -1,0 +1,19 @@
+server:
+  port: 6030
+
+security:
+  cors:
+    origin: '*'
+  oauth2:
+    resource:
+      jwt:
+        key-value: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKsL2OYIhdJBmKXz+WVK
+          LTFNPCRVq6ITIpdBGm+6wqeBRsjdcfxaFE/wYtKooA1RcWSO1nuA0PWvv0oQ3BP/
+          UbcS2260nLEEXVr5ZJQLgaS0bKTx4JwiOUNk54RtWHD6f0xexHDFddKW73TNO4wy
+          tpxP9SC7mWoshw0BWa1Rh8+PrG3b5wVKUrRLN24tR8B58zBQVfSaO9NHkgw8b6EZ
+          uwfrHF9MexxlMcXA9/ZaP09ym9ZXbu/M6JzaXwZnuh5tiK5c3SEloNpsg5sHakVO
+          GHaquV9/tHPL5kKHZrSu7u3wp89VgaEF6QdSAEPbR/3ueelTfMlNpDRoCC5YNOA0
+          OwIDAQAB
+          -----END PUBLIC KEY-----
